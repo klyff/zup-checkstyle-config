@@ -1,10 +1,7 @@
-# Deploying Instructions
+# Instruções de implantação
+Essas instruções são baseadas nas instruções para implantar no Repositório Central usando o Maven . Observe que isso é apenas para uso interno do Zup.
 
-These instructions are based on the [instructions](http://central.sonatype.org/pages/ossrh-guide.html)
-for deploying to the Central Repository using [Maven](http://central.sonatype.org/pages/apache-maven.html).
-Note that this is for Zup internal use only.
-
-Once you've got that in place, you should be able to do deployment using the following commands:
+Depois de implementá-lo, você poderá implantar usando os seguintes comandos:
 
 ```
 # deploy snapshot version
