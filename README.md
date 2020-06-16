@@ -8,13 +8,13 @@ Para usá-lo, configure seu maven-checkstyle-plugin da seguinte maneira:
 
 `` ``
    <plugin>
-     <artifactId> maven-checkstyle-plugin </artifactId>
-     <versão> 2.17 </ versão>
+     <artifactId> projeto-zup-plugin </artifactId>
+     <versão> 1.0.0 </ versão>
      <dependências>
        <dependência>
-         <groupId> com.spotify.checkstyle </groupId>
-         <artifactId> spotify-checkstyle-config </artifactId>
-         <versão> ÚLTIMA VERSÃO </version>
+         <groupId> br.zup.com.projeto.plugin </groupId>
+         <artifactId> projeto-zup-plugin </artifactId>
+         <versão> 1.0.0 </version>
        </dependency>
        <dependência>
          <groupId> com.puppycrawl.tools </groupId>
@@ -23,7 +23,7 @@ Para usá-lo, configure seu maven-checkstyle-plugin da seguinte maneira:
        </dependency>
      </dependencies>
      <configuração>
-       <configLocation> spotify_checks.xml </configLocation>
+       <configLocation> zup_checks.xml </configLocation>
        
        <! - Os seguintes parâmetros são opcionais: ->
        <consoleOutput> true </consoleOutput>
