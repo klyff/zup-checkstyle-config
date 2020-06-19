@@ -104,7 +104,7 @@ a configuração entre cada submódulo.
 
 # IDEA support
 
-Há um [arquivo de configuração para o IntelliJ IDEA] (src / main / idea / zup-checkstyle-idea.xml) que você pode importar para o seu projeto.
+Há um [arquivo de configuração para o IntelliJ IDEA] (src/main/zup_checks.xml) que você pode importar para o seu projeto.
 
 # Código de conduta
 Este projeto segue o [Código de Conduta Aberto] [código de conduta]. Ao participar, espera-se que você respeite esse código.
