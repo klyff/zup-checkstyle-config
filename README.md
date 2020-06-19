@@ -6,7 +6,7 @@ Este projeto fornece uma configuração padrão para o estilo de verificação d
 
 Para usá-lo, configure seu maven-checkstyle-plugin da seguinte maneira:
 
-`` ``
+````
    <plugin>
      <artifactId> projeto-zup-plugin </artifactId>
      <versão> 1.0.0 </ versão>
@@ -33,15 +33,15 @@ Para usá-lo, configure seu maven-checkstyle-plugin da seguinte maneira:
      </configuration>
      <execuções>
        <execução>
-         <id> validar </id>
-         <phase> validar </phase>
+         <id> validation </id>
+         <phase> validation </phase>
          <objetivos>
-           <goal> verifique </goal>
+           <goal> check </goal>
          </goals>
        </execution>
      </executions>
    </plugin>
-`` ``
+````
 
 Consulte os [documentos do maven-checkstyle-plugin] (https://maven.apache.org/plugins/maven-checkstyle-plugin/check-mojo.html) 
 para obter mais informações sobre o significado dos parâmetros de configuração.
