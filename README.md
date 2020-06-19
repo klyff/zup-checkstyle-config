@@ -66,10 +66,10 @@ Para usá-lo, configure seu maven-checkstyle-plugin da seguinte maneira:
      </configuration>
      <execuções>
        <execução>
-         <id> validation </id>
-         <phase> validation </phase>
+         <id>validate</id>
+         <phase>validate</phase>
          <objetivos>
-           <goal> check </goal>
+           <goal>check</goal>
          </goals>
        </execution>
      </executions>
